@@ -1,0 +1,34 @@
+GameName = "Cargo Shoutout" 
+
+tab1name = "Main" 
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))() 
+
+local GameName = Library:NewWindow(GameName) 
+
+local Tab1 = GameName:NewSection(tab1name) 
+
+Tab1:CreateButton("Egg1", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(173.132843, 229.978195, 289.920532, 0.927661777, -0.188160762, 0.322551042, -2.57809738e-08, 0.863771915, 0.503883064, -0.37342155, -0.467433035, 0.801288128))
+end) 
+
+Tab1:CreateButton("Egg2", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(220.195572, 209.898804, 310.233643, -0.999607563, 0.00993882213, -0.0261903815, 0.000661465107, 0.943057597, 0.332628816, 0.0280049779, 0.332480967, -0.942694068))
+end) 
+
+Tab1:CreateButton("Egg3", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(226.919876, 210.145279, 227.542175, 0.999672174, 0.0162931886, -0.0197490323, -1.12417842e-09, 0.771368742, 0.636388421, 0.0256025828, -0.636179805, 0.771115899))
+end) 
+
+Tab1:CreateButton("Egg4", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(135.693207, 209.933792, 250.341553, -0.987026095, -0.0919567049, 0.13161844, 2.25669305e-09, 0.81974715, 0.572725594, -0.160559803, 0.5652951, -0.809111834))
+end) 
+
+Tab1:CreateButton("Egg5", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(159.983505, 209.936478, 223.05159, 0.466762722, -0.366271824, 0.804970503, 1.96333705e-09, 0.910206199, 0.414155394, -0.884382606, -0.193312302, 0.424850315))
+end) 
+
+Tab1:CreateButton("Egg6", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(151.410721, 209.935394, 320.110687, -0.580100477, 0.341810882, -0.739356995, 5.38119993e-09, 0.907693326, 0.419634163, 0.814544916, 0.243429974, -0.526553333))
+end)
+local Tab2 = GameName:NewSection("justrinn")
